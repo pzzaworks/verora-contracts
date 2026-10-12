@@ -1,0 +1,52 @@
+# Compiler files
+cache/
+out/
+
+# Broadcast logs (deployment addresses live in deployments/<chainId>.json)
+/broadcast/
+
+# Docs
+docs/
+
+# Environment & Secrets - CRITICAL
+.env
+.env.*
+.env.local
+*.env
+
+# Private keys and wallets - CRITICAL
+*.pem
+*.key
+*.p12
+*.pfx
+.secret
+.secrets
+*.seed
+*.mnemonic
+keystore/
+wallets/
+secrets/
+
+# Credentials
+credentials.json
+secrets.json
+
+# Node (if any scripts)
+node_modules/
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local Anvil deployments
+deployments/31337.json
